@@ -1,0 +1,92 @@
+body{
+    background-image: url(../assets/atlantis_background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main{
+    margin-top: 15em;
+}
+.h1{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.center{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.imgcontainer{
+}
+.avatar{
+    width: 100%;
+    border-radius: 50%;
+}
+.container{
+    padding: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    padding: .5em;
+
+}
+.placeholder{
+    padding: .5em;
+    border-radius: 1em;
+
+}
+.containerbtn{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9em;
+}
+.button{
+    padding: .5em 1.5em;
+    border-radius: 1em;
+    background-color: seagreen;
+    color: white;
+    transition: all .5s ease;
+}
+.button:hover{
+    background-color: rgba(13, 180, 86, 0.849);
+    color: black;
+    cursor: pointer;
+}
+.cancelbtn{
+    padding: .5em 1.5em;
+    border-radius: 1em;
+    color: white;
+    background-color: rgba(211, 53, 53, 0.815);
+    transition: all .5s ease;
+}
+.cancelbtn:hover{
+    background-color: rgba(231, 16, 16, 0.74);
+    color: black;
+    cursor: pointer;
+}
+.remember{
+    margin-left: 2em;
+}
+.forgotpsw{
+    padding: 1em;
+}
+.forgot{
+    cursor: pointer;
+ 
+}
+.forgot:hover{
+    cursor: pointer;
+    color: white;
+}
